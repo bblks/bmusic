@@ -31,8 +31,8 @@ async def zdatsr(client: Client, message: Message):
                     InlineKeyboardButton(
                         " اوامـر القنـاة ", callback_data="zzzch"),
                     InlineKeyboardButton(
-                ],[
-                        " اوامـر الادمـن ", callback_data="zzzad"),
+                       " اوامـر الادمـن ", callback_data="zzzad"),
+                ],[ 
                     InlineKeyboardButton(
                         "𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐢𝐜𝐞", url="https://t.me/ngd_1") 
                 ],[
