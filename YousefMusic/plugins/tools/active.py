@@ -17,7 +17,7 @@ from YousefMusic.utils.database import (
 )
 
 
-@app.on_message(command(["المكالمات الصوتيه", "/activevoice"]) & SUDOERS)
+@app.on_message(command(["المكالمات ", "/activevoice"]) & SUDOERS)
 async def activevc(_, message: Message):
     mystic = await message.reply_text("» جـارِ جلب جميـع المكالمـات الصوتيـه في البـوت...")
     served_chats = await get_active_chats()
