@@ -43,7 +43,7 @@ XCB = [
 def dbb():
     global db
     db = {}
-    LOGGER("ميــوزك اكس").info(f"تم تحديث قاعدة بيانات البوت ...✓")
+    LOGGER("ميــوزك ⁷⁷𝒏𝒂𝒋𝒅 🇸🇦").info(f"تم تحديث قاعدة بيانات البوت ...✓")
 
 async def sudo():
     global SUDOERS
