@@ -20,8 +20,8 @@ async def zdatsr(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/ac75b0aedc730253e30e5.jpg",
-        caption=f"""<b>» مرحبـاً بك عـزيـزي </b> {message.from_user.mention} .\n\n<b>» استخـدم الازرار بالاسفـل ⚡\n» لـ تصفـح اوامـر سورس اكس</b>""",
+        photo=f"https://telegra.ph/file/65ae4f8eed3deb620852b.jpg",
+        caption=f"""<b>» مرحبـاً بك عـزيـزي </b> {message.from_user.mention} .\n\n<b>» استخـدم الازرار بالاسفـل \n» لـ تصفـح اوامـر سورس ⁷⁷𝒏𝒂𝒋𝒅 🇸🇦</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -32,9 +32,6 @@ async def zdatsr(client: Client, message: Message):
                         "• اوامـر القنـاة •", callback_data="zzzch"),
                     InlineKeyboardButton(
                         "• اوامـر الادمـن •", callback_data="zzzad"),
-                ],[
-                    InlineKeyboardButton(
-                       "• اوامــر المطــور •", callback_data="zzzdv"),
                     InlineKeyboardButton(
                         "رجـوع", callback_data="zzzback"),
                 ],[
