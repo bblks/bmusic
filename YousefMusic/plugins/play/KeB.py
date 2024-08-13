@@ -38,7 +38,7 @@ lnk= "" +config.SUPPORT_CHANNEL
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,2301)
     url = f"https://t.me/AudiosWaTaN/{rl}"
-    await message.reply_voice(url,caption="≭︰تم اختيار اغنية لك .",
+    await message.reply_voice(url,caption="•︰تم اختيار اغنية لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -53,7 +53,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,580)
     url = f"https://t.me/AudiosWaTaN/{rl}"
-    await message.reply_voice(url,caption="≭︰تم اختيار فويز لك .",
+    await message.reply_voice(url,caption="•︰تم اختيار فويز لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,7 +68,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,279)
     url = f"https://t.me/remixsource/{rl}"
-    await message.reply_voice(url,caption="≭︰تم اختيار ريمكس لك .",
+    await message.reply_voice(url,caption="•︰تم اختيار ريمكس لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -83,7 +83,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,86)
     url = f"https://t.me/RapEthan/{rl}"
-    await message.reply_voice(url,caption="≭︰تم اختيار الراب لك .",
+    await message.reply_voice(url,caption="•︰تم اختيار الراب لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -101,7 +101,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(1,107)
     url = f"https://t.me/LKKKKV/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار صورة لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار صورة لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -117,7 +117,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,999)
     url = f"https://t.me/AnimeWaTaN/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار انمي لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار انمي لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -134,7 +134,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,925)
     url = f"https://t.me/GifWaTaN/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار المتحركة لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار المتحركة لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -149,7 +149,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/LoreBots9/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار اقتباس لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار اقتباس لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -165,7 +165,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/flflfldld/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار هيدرات لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار هيدرات لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -180,7 +180,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/QrQsQ/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار صورة لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار صورة لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -195,7 +195,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/vvyuol/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار صورة لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار صورة لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -211,7 +211,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(1,90)
     url = f"https://t.me/lllIIlIllIlIIlI/{rl}"
-    await message.reply_voice(url,caption="≭︰تم اختيار اية قرآنية لك .",
+    await message.reply_voice(url,caption="•︰تم اختيار اية قرآنية لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -226,7 +226,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,61)
     url = f"https://t.me/flflflgktl/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار جدارية لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار جدارية لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -241,7 +241,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(4,281)
     url = f"https://t.me/kabsjjwbs/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار لوكيت لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار لوكيت لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -256,7 +256,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,326)
     url = f"https://t.me/Ntsjcdz/{rl}"
-    await message.reply_video(url,caption="≭︰تم اختيار فلم لك .",
+    await message.reply_video(url,caption="•︰تم اختيار فلم لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -271,7 +271,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(1,78)
     url = f"https://t.me/LKKKKT/{rl}"
-    await message.reply_video(url,caption="≭︰تم اختيار فيديو التمبلر لك .",
+    await message.reply_video(url,caption="•︰تم اختيار فيديو التمبلر لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -286,7 +286,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(1,379)
     url = f"https://t.me/storryr/{rl}"
-    await message.reply_video(url,caption="≭︰تم اختيار ستوري لك .",
+    await message.reply_video(url,caption="•︰تم اختيار ستوري لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -309,7 +309,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(7,622)
     url = f"https://t.me/L1BBBL/{rl}"
-    await message.reply_voice(url,caption="≭︰تم اختيار شعر لك .",
+    await message.reply_voice(url,caption="•︰تم اختيار شعر لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -324,7 +324,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(3,218)
     url = f"https://t.me/IIYIZ/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار افتار سينمائي لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار افتار سينمائي لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -340,7 +340,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(3,214)
     url = f"https://t.me/FPPPH/{rl}"
-    await message.reply_photo(url,caption="≭︰تم اختيار افتار فنان لك .",
+    await message.reply_photo(url,caption="•︰تم اختيار افتار فنان لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -356,7 +356,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,21)
     url = f"https://t.me/dldldldlgt/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف شباب لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف شباب لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -371,7 +371,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,22)
     url = f"https://t.me/lflflrofo/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف بنات لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف بنات لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -387,7 +387,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,101)
     url = f"https://t.me/gsgjituops/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف قطط لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف قطط لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -402,7 +402,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,24)
     url = f"https://t.me/fmgngoclr/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف اطفال لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف اطفال لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -417,7 +417,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,21)
     url = f"https://t.me/romansiaaa/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف رومانسي لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف رومانسي لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -432,7 +432,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,25)
     url = f"https://t.me/kibobg/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف كيبوب لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف كيبوب لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -447,7 +447,7 @@ async def aTari(client: Client, message: Message):
 async def aTari(client: Client, message: Message):
     rl = random.randint(2,59)
     url = f"https://t.me/koksalt/{rl}"
-    await message.reply_animation(url,caption="≭︰تم اختيار قيف كوكسال لك .",
+    await message.reply_animation(url,caption="•︰تم اختيار قيف كوكسال لك .",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
