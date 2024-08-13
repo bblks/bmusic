@@ -62,16 +62,16 @@ async def devatari(_, query: CallbackQuery):
     user_ab = query.from_user.username
     user_name = query.from_user.first_name
     
-    await app.send_message(OWNER_ID, f"<b>≭︰قام ~ ⦗ {query.from_user.mention} ⦘ .\n</b>"
-                                     f"<b>≭︰بمناداتك عزيزي المطور .\n</b>"
-                                     f"<b>≭︰الأيدي ~ ⦗ {user_id} ⦘ .\n</b>"
-                                     f"<b>≭︰اليوزر ~ ⦗ @{user_ab} ⦘ .\n</b>"
-                                     f"<b>≭︰يوزر المجموعة العام ~ ⦗ {chatusername} ⦘ .\n</b>"
-                                     f"<b>≭︰يوزر المجموعة الخاص ~ ⦗ {chatprivatename} ⦘ .\n</b>"
-                                     f"<b>≭︰ايدي المجموعة ~ ⦗ {chat} ⦘ .\n</b>")
+    await app.send_message(OWNER_ID, f"<b>•︰قام ~ ⦗ {query.from_user.mention} ⦘ .\n</b>"
+                                     f"<b>•︰بمناداتك عزيزي المطور .\n</b>"
+                                     f"<b>•︰الأيدي ~ ⦗ {user_id} ⦘ .\n</b>"
+                                     f"<b>•︰اليوزر ~ ⦗ @{user_ab} ⦘ .\n</b>"
+                                     f"<b>•︰يوزر المجموعة العام ~ ⦗ {chatusername} ⦘ .\n</b>"
+                                     f"<b>•︰يوزر المجموعة الخاص ~ ⦗ {chatprivatename} ⦘ .\n</b>"
+                                     f"<b>•︰ايدي المجموعة ~ ⦗ {chat} ⦘ .\n</b>")
 
 
-    await query.message.reply_text(f"<b>≭︰تم إرسال استدعائك إلى مطور البوت .\n\n≭︰Berlin Team ~ ⦗ @F_U_O ⦘ .\n≭︰Black Updates ~ ⦗ @cecrr ⦘ .\n≭︰Dev ~ ⦗ @Y_o_v ⦘ .</b>")
+    await query.message.reply_text(f"<b>•︰تم إرسال استدعائك إلى مطور البوت .\n\n≭︰Berlin Team ~ ⦗ @Z_l_7 ⦘ .\n≭︰Black Updates ~ ⦗ @cecrr ⦘ .\n≭︰Dev ~ ⦗ @Y_o_v ⦘ .</b>")
 
 @app.on_message(
     command(["المطور"])
@@ -79,10 +79,10 @@ async def devatari(_, query: CallbackQuery):
   
 )
 async def rsexs(client, message):
-    usr = await app.get_chat("y_o_v")
+    usr = await app.get_chat("Z_l_7")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"≭︰Dev Name↬⦗{name}⦘\n≭︰Dev User ↬ ⦗ @{usr.username} ⦘\n≭︰Dev id ↬ ⦗ {usr.id} ⦘",  
+    await message.reply_photo(photo,       caption=f"•︰Dev Name↬⦗{name}⦘\n≭︰Dev User ↬ ⦗ @{usr.username} ⦘\n≭︰Dev id ↬ ⦗ {usr.id} ⦘",  
     reply_markup=InlineKeyboardMarkup(
             [
                 [
