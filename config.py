@@ -34,7 +34,7 @@ DURATION_LIMIT_MIN = safe_getenv_int("DURATION_LIMIT", 2001)
 LOGGER_ID = safe_getenv_int("LOGGER_ID", -1002053793790)
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = safe_getenv_int("OWNER_ID", 6094238403)
+OWNER_ID = safe_getenv_int("OWNER_ID", 7085943284)
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,19 +42,19 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yousef1yt/My_Source-black-bot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/bblkt/bmusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 CH_US = getenv("CH_US", "cecrr")
 CHANNEL_SUDO = getenv("CHANNEL_SUDO", "ceccr")
 YAFA_NAME = getenv("YAFA_NAME", "اضغط هنا للاشتراك")
-YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/cecrr")# Fill this variable if your upstream repository is private
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/P_6_B")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cecrr")
-CHANNEL_NAME = getenv("CHANNEL_NAME", "• . 𝖠 ' 𝟣𝟣𝟣 . •")
-CHANNEL_LINK = getenv("CHANNEL_LINK", "cecrr")
+YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/ngd_5")# Fill this variable if your upstream repository is private
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ngd_1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ngd_5")
+CHANNEL_NAME = getenv("CHANNEL_NAME", "𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐢𝐜𝐞🧚")
+CHANNEL_LINK = getenv("CHANNEL_LINK", "ngd_5")
 
-OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/cecrr")
+OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/ngd_5")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = safe_getenv_bool("AUTO_LEAVING_ASSISTANT", False)
@@ -85,18 +85,18 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg")
-PLAYLIST_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
-STATS_IMG_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg")
+PLAYLIST_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/65ae4f8eed3deb620852b.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
