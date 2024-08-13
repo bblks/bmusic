@@ -10,7 +10,7 @@ from config import *
 
 bot_name = {}
 
-name = "بلاك"
+name = "بوت"
 
 @app.on_message(filters.regex("تعيين اسم البوت")& filters.private & SUDOERS, group=7113)
 async def set_bot_name(client, message):
@@ -20,26 +20,26 @@ async def set_bot_name(client, message):
     await message.reply_text("تم تعيين الاسم بنجاح")
 
 Mazen_responses = [
-    "تئبرني 😂♥️ ،",
-    "قلب بلاك 🌚 ⋅",
+    "انا بوت خاص ب تشغيل الميوزك في الجروبات ،",
+    "امر كيف يمكنني مساعدتك ⋅",
     "نعم يا عيوني  ،",
-    "روح بلاك",
-    "بلاك مو فاضيلك عم يطبق بوته",
-    "ما ازنخك بقلك بلاك",
-    "انتو بني ادمين ليش زنخين اسكت",
+    "امرني انا بوت تشغيل الميوزك "
+    "ارحب انابوت خاص بالموسيقه",
+    " ياهلا امرني كيف يمكنني مساعدتك",
+    "من خلالي يمكنك تشغيل الميوزك في جروبك",
 ]
 
-@app.on_message(filters.command(["بلاكي", "بلاك"], ""), group=71135)
+@app.on_message(filters.command(["بوت", "ديا"], ""), group=71135)
 async def Mazen_bot(client, message):
     global name
     bot_username = (await app.get_me()).username
     bar = random.choice(Mazen_responses).format(name=name)
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("تحديثات بلاك ⚡", url=f"https://t.me/P_6_B")]
+        [InlineKeyboardButton("تحديثات السورس ", url=f"https://t.me/ngd_1")]
     ])
     
     await message.reply_text(
-        text=f"**[{bar}](https://t.me/P_6_B)**",
+        text=f"**[{bar}](https://t.me/ngd_1)**",
         disable_web_page_preview=True,
         reply_markup=keyboard,
     parse_mode=enums.ParseMode.MARKDOWN)
