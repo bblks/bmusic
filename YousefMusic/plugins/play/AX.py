@@ -16,7 +16,7 @@ async def strcall(client, message):
     assistant = await group_assistant(Zelzaly, message.chat.id)
     try:
         await assistant.join_group_call(message.chat.id, AudioPiped("https://graph.org/file/217aac5f9cd2b05f7ba5a.mp4"), stream_type=StreamType().pulse_stream)
-        text = "~ المتكلمين بالأتصال :\n\n"
+        text = "~ الموجودين في الكول  :\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k = 0
         for participant in participants:
@@ -32,14 +32,14 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton(". 𝖠 ' 𝟣𝟣𝟣 .", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton("𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐢𝐜𝐞🧚", url=config.SUPPORT_CHAT)],
         ])      
 
         await message.reply(f"{text}", reply_markup=inline_keyboard)
         await asyncio.sleep(7)
         await assistant.leave_group_call(message.chat.id)
     except NoActiveGroupCall:
-        await message.reply(f"- ماكو شي مشتغل .")
+        await message.reply(f"- لايوجد اتصال فعال .")
     except TelegramServerError:
         await message.reply(f"- حدث خطأ .")
     except AlreadyJoinedError:
@@ -59,6 +59,6 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton(". 𝖠 ' 𝟣𝟣𝟣 .", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton("𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐢𝐜𝐞🧚", url=config.SUPPORT_CHAT)],
         ])
         await message.reply(f"{text}", reply_markup=inline_keyboard)
