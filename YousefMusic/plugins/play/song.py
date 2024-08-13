@@ -17,7 +17,7 @@ def get_cookies_file():
     cookie_txt_file = random.choice(txt_files)
     return cookie_txt_file
 
-@app.on_message(command(["/song", "بحث", "تحميل", "تنزيل", "يوت", "yt"]))
+@app.on_message(command(["/song", "بحث", "تحميل", "ابحث", "يوت", "yt"]))
 async def song(client, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -26,7 +26,7 @@ async def song(client, message):
     query = " ".join(message.command[1:])
     print(query)
     
-    m = await message.reply("جاري البحث لحظة...")
+    m = await message.reply("ابشر الحين تجيك ...")
     
     ydl_opts = {
         "format": "bestaudio[ext=m4a]",
