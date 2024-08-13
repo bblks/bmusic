@@ -47,9 +47,9 @@ async def huhh(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command(["مطور السورس","يوسف","جو","مطور السورس ✯"], ""), group=73) 
+@app.on_message(filters.command(["مطور السورس","نجد","","مطور السورس ✯"], ""), group=73) 
 async def deev(client: Client, message: Message):
-     user = await client.get_chat(chat_id="y_o_v")
+     user = await client.get_chat(chat_id="Z_l_7")
      name = user.first_name
      username = user.username 
      bio = user.bio
@@ -73,9 +73,9 @@ async def deev(client: Client, message: Message):
      except:
         pass
 
-@app.on_message(filters.command(["مبرمج السورس","os","لين","لينتي"], ""), group=73) 
+@app.on_message(filters.command(["مبرمج السورس","os","","نجد"], ""), group=73) 
 async def deev(client: Client, message: Message):
-     user = await client.get_chat(chat_id="lino_02")
+     user = await client.get_chat(chat_id="Z_l_7")
      name = user.first_name
      username = user.username 
      bio = user.bio
