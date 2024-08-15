@@ -47,7 +47,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="ايقاف", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="قناة البوت ", url=f"https://t.me/ngd_5"),
+            InlineKeyboardButton(text="قناة البوت ", url=f"https://t.me/M_2_G"),
             InlineKeyboardButton(text="sᴏᴜʀᴄᴇᴀʟɪᴄᴇ", url=f"https://t.me/ngd_1"),
             
         ],[
@@ -66,7 +66,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="ايقاف", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="قناة البوت ", url=f"https://t.me/ngd_5"),
+            InlineKeyboardButton(text="قناة البوت ", url=f"https://t.me/M_2_G"),
             InlineKeyboardButton(text="sᴏᴜʀᴄᴇᴀʟɪᴄᴇ", url=f"https://t.me/ngd_1"),
            
         ],[
