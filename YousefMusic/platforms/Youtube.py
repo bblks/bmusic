@@ -303,7 +303,10 @@ class YouTubeAPI:
                 "geo_bypass": True,
                 "nocheckcertificate": True,
                 "quiet": True,
-                "cookiefile" : cookie_txt_file(),
+                ydl_opts = {
+        "format": "bestaudio[ext=m4a]",
+        "proxy": '200.174.198.86:8888'
+            }
                 "no_warnings": True,
             }
             x = yt_dlp.YoutubeDL(ydl_optssx)
