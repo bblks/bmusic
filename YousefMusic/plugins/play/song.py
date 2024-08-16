@@ -27,19 +27,9 @@ async def song(client, message):
     print(query)
     
     m = await message.reply("ابشر الحين تجيك ...")
-    
     ydl_opts = {
         "format": "bestaudio[ext=m4a]",
-                def audio_dl():
-            ydl_optssx = {
-                "format": "bestaudio/best",
-                "outtmpl": "downloads/%(id)s.%(ext)s",
-                "geo_bypass": True,
-                "nocheckcertificate": True,
-                "quiet": True,
-                "proxy": '200.174.198.86:8888',
-                "no_warnings": True,
-    }
+        "proxy": '200.174.198.86:8888'
     }
     
     try:
